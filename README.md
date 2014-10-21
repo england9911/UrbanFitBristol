@@ -2,5 +2,3 @@ UrbanFitBristol
 ===============
 
 Website
-
-...
