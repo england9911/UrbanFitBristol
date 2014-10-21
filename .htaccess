@@ -1,7 +1,8 @@
 DirectoryIndex index.php
 
 
-AuthUserFile "/home/urbanfitbristol/public_html/pl/.htpasswd"
-AuthName     ""
-AuthType     Basic
-require      valid-user
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile /home/urbanfitbristol/public_html/.htpasswd 
+AuthGroupFile /dev/null 
+require valid-user
