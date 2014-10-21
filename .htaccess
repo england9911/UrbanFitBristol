@@ -1,1 +1,7 @@
 DirectoryIndex index.php
+
+
+AuthUserFile "/home/urbanfitbristol/public_html/pl/.htpasswd"
+AuthName     ""
+AuthType     Basic
+require      valid-user
