@@ -1,5 +1,7 @@
 DirectoryIndex index.php
 
+#allows a single uri through the .htaccess password protection
+SetEnvIf Request_URI "/deploy.php$" deploy.php
 
 AuthName "Restricted Area" 
 AuthType Basic 
